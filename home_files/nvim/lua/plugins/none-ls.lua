@@ -16,7 +16,7 @@ return {
         null_ls.builtins.diagnostics.cpplint, -- C/C++ static checker
         null_ls.builtins.diagnostics.dotenv_linter, -- .env linter
         null_ls.builtins.diagnostics.markdownlint, -- MD linter
-        null_ls.builtins.diagnostics.pylint, -- Python linter        
+        null_ls.builtins.diagnostics.pylint, -- Python Linter
         null_ls.builtins.diagnostics.sqruff, -- SQL linter        
         null_ls.builtins.diagnostics.markuplint, -- HTML linter        
         null_ls.builtins.diagnostics.stylelint, -- CSS linter        
