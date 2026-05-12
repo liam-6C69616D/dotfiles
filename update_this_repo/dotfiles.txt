@@ -1,0 +1,8 @@
+~/.zshrc
+~/.p10k.zsh
+~/.tmux.conf
+
+~/.config/nvim
+~/.config/colorls
+
+~/bin/cleanup
