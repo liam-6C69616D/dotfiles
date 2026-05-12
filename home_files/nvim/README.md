@@ -1,3 +1,13 @@
+# Custom Keybinds
+`<leader>` is space
+- `gd` Go to definition (cursor must be on word)
+- `<leader>ca` Code actions
+- `<C-n>` Toggle NeoTree (file and folder view)
+- `<leader>g` Toggle Git status in NeoTree
+- `<leader>gf` Format the file (uses installed formatter from none-ls) 
+- `<leader>ff` Find Files (file search) using Telescope
+- `<leader>fg` Fuzzy Grep (file content grep) using Telescope
+
 # Instructions for setup
 - Install Neovim
 - Write all these files to `~/.config/nvim`
