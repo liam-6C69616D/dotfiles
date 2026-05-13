@@ -116,3 +116,4 @@ export PATH="$PATH:/home/liam/bin"
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 alias ls='colorls'
+alias update_dotfiles="cd ~/Documents/Projects/Ruby/update_dotfile_git_repo/update_this_repo/; bundle exec ruby main.rb; git add -A"
