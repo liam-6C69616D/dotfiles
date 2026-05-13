@@ -7,6 +7,7 @@
 - `<leader>gf` Format the file (uses installed formatter from none-ls) 
 - `<leader>ff` Find Files (file search) using Telescope
 - `<leader>fg` Fuzzy Grep (file content grep) using Telescope
+- `<leader>diff` Open git diff (`:tabc` to close)
 
 # Instructions for setup
 - Install Neovim
