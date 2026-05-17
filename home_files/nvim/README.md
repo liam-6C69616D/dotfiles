@@ -8,6 +8,13 @@
 - `<leader>ff` Find Files (file search) using Telescope
 - `<leader>fg` Fuzzy Grep (file content grep) using Telescope
 - `<leader>diff` Open git diff (`:tabc` to close)
+- `<leader>xx` Trouble diagnostics
+- `<leader>xX` Trouble diagnostics (buffer)
+- `<leader>cs` Trouble symbols (show functions, classes, vars in file)
+- `<leader>cl` Trouble LSP refs, defs and implementations
+- `<leader>xL` Trouble location list
+- `<leader>xQ` Trouble quickfix list
+
 
 # Instructions for setup
 - Install Neovim

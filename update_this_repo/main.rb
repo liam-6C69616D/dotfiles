@@ -23,6 +23,7 @@ end
 def main
   cfg = ConfigBackup.new('dotfiles.txt')
   cfg.copy_files
+  `git add -A`
 end
 
 main
