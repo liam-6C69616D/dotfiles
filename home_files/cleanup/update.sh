@@ -9,7 +9,7 @@ check_file() {
         current_timestamp=$(date +%s)
         time_diff=$((current_timestamp - file_timestamp))
 
-        if (( time_diff > 604800 )); then
+        if (( time_diff > 259200 )); then
                 # Show GUI dialog (requires zenity or kdialog)
                 if command -v zenity &> /dev/null; then
                         if zenity --question --text="Update system packages?" --title="System Update"; then
