@@ -7,6 +7,8 @@ vim.cmd("set shiftwidth=2") -- Indentation for auto indent (using >> or << or co
 vim.cmd("set clipboard=unnamedplus") -- Copy yanked to system clipboard
 vim.keymap.set("i", "<S-Tab>", "<C-d>", { noremap = true }) -- Set shift+tab to unindent
 vim.cmd("set number")
+vim.cmd("set inccommand=split") -- Shows a tab of all renames when using inc_rename plugin
+vim.wo.relativenumber = true
 
 -- Disable arrow keys in normal mode
 vim.keymap.set("n", "<Up>", "<Nop>")
@@ -19,3 +21,6 @@ vim.keymap.set("v", "<Up>", "<Nop>")
 vim.keymap.set("v", "<Down>", "<Nop>")
 vim.keymap.set("v", "<Left>", "<Nop>")
 vim.keymap.set("v", "<Right>", "<Nop>")
+
+
+-- vim.cmd("set mouse=")

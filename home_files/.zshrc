@@ -114,6 +114,7 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH="$PATH:/home/liam/bin"
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+export PATH="$PATH:/home/liam/.local/bin"
 
 alias ls='colorls'
 alias update_dotfiles="cd ~/Documents/Projects/Ruby/update_dotfile_git_repo/update_this_repo/; bundle exec ruby main.rb; git add -A"
