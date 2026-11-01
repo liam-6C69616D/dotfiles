@@ -30,7 +30,8 @@ return {
     })
 
     vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>') -- CTRL+n shows filesystem 
-    vim.keymap.set('n', '<leader>g', ':Neotree git_status toggle left<CR>') -- CTRL+g shows git
+    vim.keymap.set('n', '<leader>g', ':Neotree git_status toggle left<CR>') -- SPACE+g shows git
+    vim.keymap.set('n', '<leader>b', ':Neotree buffers toggle left<CR>') -- SPACE+b shows buffers
   end,
   init = function()
     vim.api.nvim_create_autocmd("VimEnter", {

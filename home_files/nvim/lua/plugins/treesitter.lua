@@ -7,7 +7,7 @@ local parsers = {
   "typescript",
   "ruby",
   "markdown",
-  "markdown_inline",
+  "markdown_inline"
 }
 
 return {
@@ -19,12 +19,12 @@ return {
     require("nvim-treesitter").setup()
 
     require("nvim-treesitter").install(parsers)
-
+    
     vim.api.nvim_create_autocmd("FileType", {
       pattern = parsers,
       callback = function(ev)
         vim.treesitter.start(ev.buf)
-      end,
+      end
     })
   end,
 }
